@@ -20,7 +20,6 @@ export const Notification: React.FC<Props> = memo(({ errorText, setError }) => {
       })
     }
     >
-      {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
       <button
         type="button"
         className="delete"
